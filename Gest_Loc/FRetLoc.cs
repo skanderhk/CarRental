@@ -66,7 +66,7 @@ namespace Gest_Loc
 
         private void FRetLoc_Load(object sender, EventArgs e)
         {
-            List<Location> L = LocationADO.list_loc();
+            List<Location> L = LocationADO.List_Loc();
             Affiche(L);
         }
     }

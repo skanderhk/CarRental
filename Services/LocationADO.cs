@@ -70,7 +70,7 @@ namespace Services
             }
         }
 
-        public static List<Location> list_Loc()
+        public static List<Location> List_Loc()
         {
             using (BDLocationEntities context = new BDLocationEntities())
             {
